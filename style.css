@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+body{
+    background-color: rgb(245,243,236);
+}
+
+hr{
+    display: none;
+}
+
+h1{
+    font-family: 'Slabo 27px', serif;
+    color: rgb(24,69,19);
+    font-size: 5em;
+    margin-left: 10vw;
+}
+
+h2{
+    color: rgb(14,47,11);
+    font-family: 'Slabo 27px', serif;
+    font-size: 3em;
+    margin-left: 20vw;
+}
+
+a:link{
+    color: rgb(85, 139, 83);
+}
+a:visited{
+    color: rgb(26, 95, 74);
+}
+
+
+p{
+        margin-left: 7vw;
+        margin-right: 5vw;
+        margin-top: 3vh;
+        padding: 0;
+    font-size: 1.25em;
+    color: rgb(54, 54, 54);
+    font-family: 'Slabo 27px', serif;
+    width: 67%;
+    line-height: 1.5em;
+}
+
+p:nth-of-type(2n + 1){
+    text-indent: 2em;
+}
+
+p.toc{
+    color: rgb(89,137,87);
+    text-indent: 0;
+}
+
+blockquote{
+    position: absolute;
+    right: 0;
+    background-color: rgb(234,244,236);
+    margin: 0;
+}
+
+
+
+/*-------------------Tablet------------------------*/
+@media only screen and (min-width: 800px) and (max-width:1280px){
+
+    body{
+        background-color: rgb(245,243,236);
+    }
+
+    h1{
+        margin: auto;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 4em;
+        margin-left: 28vw;
+    }
+
+    blockquote{
+        width: 20vw;
+    }
+}
+    
+
+
+
+
+/*--------------Smart Phones---------------------*/
+@media only screen and (max-width:800px){
+
+    body{
+        background-color: rgb(245,243,236);
+    }
+
+    blockquote{
+        position: relative;
+        top: auto;
+        left: auto;
+        background-color: rgb(234,244,236);
+        margin:auto;
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+        margin: auto;
+    }
+
+    h2{
+        margin:auto;
+        text-align: center;
+    }
+
+    p{
+        margin: auto;
+        font-size: 2em;
+        line-height: 1.25em;
+        text-indent: 2em;
+    }
+}
